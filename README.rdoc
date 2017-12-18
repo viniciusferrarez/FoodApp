@@ -16,3 +16,5 @@ Heroku do not use sqlit3, so we moved this gem under development test
 also we install a bundle with two new gems
 gem 'pn'
 gem 'rails_12factor'
+
+After login to heroku, then we create a application for heroku: heroku create
