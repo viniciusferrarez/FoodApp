@@ -5,17 +5,18 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
-get 'welcome/index', to: 'welcome#index'
-get 'welcome/about', to: 'welcome#about'
-get 'welcome/italian', to: 'welcome#italian'
-get 'welcome/vegan', to: 'welcome#vegan'
-get 'welcome/middle', to: 'welcome#middle'
-get 'welcome/spanish', to: 'welcome#spanish'
-get 'welcome/chinese', to: 'welcome#chinese'
-get 'welcome/coffe', to: 'welcome#coffe'
-get 'welcome/falafel', to: 'welcome#falafel'
-get 'welcome/vegetarian', to: 'welcome#vegetarian'
-get 'welcome/burger', to: 'welcome#burger'
+root 'welcome#index'
+get 'about', to: 'welcome#about'
+
+get 'italian', to: 'welcome#italian'
+get 'vegan', to: 'welcome#vegan'
+get 'middle', to: 'welcome#middle'
+get 'spanish', to: 'welcome#spanish'
+get 'chinese', to: 'welcome#chinese'
+get 'coffe', to: 'welcome#coffe'
+get 'falafel', to: 'welcome#falafel'
+get 'vegetarian', to: 'welcome#vegetarian'
+get 'burger', to: 'welcome#burger'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
