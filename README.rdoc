@@ -1,28 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an application for find restaurants after select the type of food.
 
-Things you may want to cover:
+First we create our controller and we add several methods to it.
 
-* Ruby version
+second we create a different rout for each page.
 
-* System dependencies
+third we created all the views and we linked each other.
 
-* Configuration
+forth we created a git repository, connected it to the GitGub in order to have a backup of our progress.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+fifth we create an account in Heroku to deploy our application.
